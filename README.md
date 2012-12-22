@@ -13,8 +13,6 @@ Basic Usage:
 
 var FF=require("formattedfield");
 
-
-
 var textFieldForNumbersUpTo3CharsValueLessThan888 = FF.createFormattedTextField(
 																{top:20,
 																 left:20,
@@ -25,8 +23,7 @@ var textFieldForNumbersUpTo3CharsValueLessThan888 = FF.createFormattedTextField(
 																 nolargerthan=888);
 
 
-win.add(textFieldForNumbersUpTo3CharsValueLessThan8);
-
+win.add(textFieldForNumbersUpTo3CharsValueLessThan888);
 
 
 ```
